@@ -1,9 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Amazon Exact Price Filter",
-  "author": "Dan Harcsztark",
   "version": "1.0.0",
-  "description": "Use the classic interface (not the slider) to set exact minimum and maximum prices on Amazon.com results.",
+  "description": "Use Amazon's classic interface (not the slider) to set exact minimum and maximum prices on Amazon.com results.",
   "permissions": [
     "tabs"
   ],
