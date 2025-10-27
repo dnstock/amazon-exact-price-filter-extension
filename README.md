@@ -40,7 +40,9 @@ No data is collected or sent anywhere. All logic runs locally in the popup and o
 - If you are not on an Amazon search results page, applying filters may navigate, but filters are most meaningful on `/s` result pages.
 - If nothing happens, ensure the tab is on **amazon.com**, not a country-specific domain, and that you’re allowing the extension to run (pinned/visible).
 
-## Install Locally for Development & Testing
+## Install (Developer Mode)
+
+If you want to install the extension for development and testing purposes, follow these steps:
 
 1. Clone this repository.
 1. Open your browser and go to `chrome://extensions` (Chrome) or `brave://extensions` (Brave).
