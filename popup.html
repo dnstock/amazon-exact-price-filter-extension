@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Amazon Exact Price Filter</title>
+  <title>Amazon.com Exact Price Filter</title>
   <link rel="stylesheet" href="popup.css" />
 </head>
 <body>
   <main>
     <header>
       <img src="icons/icon-48.png" alt="" />
-      <h1>Exact Price Filter</h1>
+      <h1>Amazon Exact Price Filter</h1>
     </header>
 
     <form id="price-form">
@@ -30,7 +30,7 @@
         </div>
       </div>
 
-      <p class="hint">Works on Amazon.com search results. The extension updates the URL with <code>low-price</code> and <code>high-price</code>.</p>
+      <p class="hint">Works on Amazon.com search results.<br/>Both fields are optional.</p>
 
       <div id="error" role="alert" aria-live="polite"></div>
       <div id="status" aria-live="polite"></div>
@@ -43,7 +43,7 @@
 
     <footer>
       <small>
-        Tip: You can fill just one of the fields (min or max). If both are filled, min must be less than max.
+        <p class="tip">Pin this extension for quick access!</p>
       </small>
     </footer>
   </main>

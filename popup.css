@@ -3,8 +3,8 @@
   --card: #151923;
   --text: #e8ecf1;
   --muted: #9aa4b2;
-  --accent: #22c55e;
-  --accent-contrast: #08290f;
+  --accent: #FF9900;
+  --accent-contrast: #232F3E;
   --danger: #ef4444;
   --border: #243042;
 }
@@ -81,6 +81,15 @@ input {
   margin: 4px 0 8px;
 }
 
+.tip {
+    display: inline;
+    background-image: url('pin.png');
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+}
+
 #error {
   display: none;
   background: #2a1214;
@@ -94,9 +103,9 @@ input {
 
 #status {
   display: none;
-  background: #112617;
-  color: #b0f2c0;
-  border: 1px solid #1e3c27;
+  background: #332200;
+  color: #ffcc80;
+  border: 1px solid #4d3300;
   border-radius: 8px;
   padding: 8px;
   margin: 8px 0;
@@ -128,4 +137,5 @@ button.secondary {
 footer {
   margin-top: 10px;
   color: var(--muted);
+  text-align: center;
 }

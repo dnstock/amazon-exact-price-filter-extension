@@ -16,7 +16,7 @@ It is intended for anyone who dislikes the newer price slider control and prefer
 1. Click the extension icon to open the popup.
 1. Enjoy a better shopping experience!
 
-> Tip: Pin the extension for quick access.
+> Tip: Pin the extension for quick access!
 
 ## Use
 
