@@ -7,7 +7,7 @@
     "tabs"
   ],
   "action": {
-    "default_title": "Amazon Exact Price Filter",
+    "default_title": "Amazon.com Exact Price Filter",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon-16.png",

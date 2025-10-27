@@ -67,4 +67,3 @@ To report bugs or if you encounter issues or have suggestions, please use the [G
 ## License
 
 This project is freely available and licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
