@@ -1,21 +1,19 @@
-# Amazon Exact Price Filter (Chrome/Webkit Extension)
+# Amazon.com Exact Price Filter (Chrome/Webkit Extension)
+
+## Overview
+
+Use the classic interface (not the slider) to set exact minimum and maximum prices on Amazon.com results.
 
 This extension is intended for users who dislike the price slider control and prefer to use the classic text input interface to set precise **minimum** and **maximum** prices for product search results while shopping on Amazon.com.
 
-![Amazon Exact Price Filter Extension](screenshots/user_interface_screenshot.png)
+![Extension Preview](screenshots/extension_preview_1280x800.png)
+![Interface Preview](screenshots/interface_preview.png)
 
-The extension updates Amazon's search URL to include support for the filter parameters:
+## Get the Extension!
 
-- `low-price=<min>`
-- `high-price=<max>`
-
-## Install
-
-1. Download and unzip this folder (or use the ZIP attached in this chat).
-2. In Chrome, open `chrome://extensions`.
-3. Enable **Developer mode** (top-right).
-4. Click **Load unpacked** and select the unzipped folder.
-5. Pin the extension if you’d like quick access.
+1. Download the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/johhjkfjfaknndeenoinpiecomheidlj?utm_source=item-share-github) (works on Brave too).
+1. Install the extension.
+1. Pin the extension if you’d like quick access.
 
 ## Use
 
@@ -42,9 +40,19 @@ No data is collected or sent anywhere. All logic runs locally in the popup and o
 - If you are not on an Amazon search results page, applying filters may navigate, but filters are most meaningful on `/s` result pages.
 - If nothing happens, ensure the tab is on **amazon.com**, not a country-specific domain, and that you’re allowing the extension to run (pinned/visible).
 
+## Install Locally for Development & Testing
+
+1. Clone this repository.
+1. Open your browser and go to `chrome://extensions` (Chrome) or `brave://extensions` (Brave).
+1. Enable **Developer mode** (top-right).
+1. Click **Load unpacked** and select the folder with this repository.
+
+### Note 
+- Running `./pack.sh` will create an `extension.zip` file with just the necessary extension files.
+
 ## Contributing
 
-This project is open source and welcomes contributions. You can contribute by reporting bugs, suggesting features, or contributing code.
+This project is open source and welcomes contributions. You can contribute by reporting bugs, suggesting features, giving feedback, or writing code.
 
 The source code is available on [GitHub](https://github.com/dnstock/amazon-exact-price-filter-extension). The project is maintained by [Dan Harcsztark](https://github.com/dnstock).
 
