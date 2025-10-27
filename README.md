@@ -2,9 +2,9 @@
 
 ## Overview
 
-Use the classic interface (not the slider) to set exact minimum and maximum prices on Amazon.com results.
+This extension allows users to type in exact minimum and maximum prices for product search results while shopping on Amazon.com.
 
-This extension is intended for users who dislike the price slider control and prefer to use the classic text input interface to set precise **minimum** and **maximum** prices for product search results while shopping on Amazon.com.
+It is intended for anyone who dislikes the newer price slider control and prefers to use the classic text input interface to set a precise range for product prices.
 
 ![Extension Preview](screenshots/extension_preview_1280x800.png)
 ![Interface Preview](screenshots/interface_preview.png)
@@ -13,27 +13,31 @@ This extension is intended for users who dislike the price slider control and pr
 
 1. Download the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/johhjkfjfaknndeenoinpiecomheidlj?utm_source=item-share-github) (works on Brave too).
 1. Install the extension.
-1. Pin the extension if you’d like quick access.
+1. Click the extension icon to open the popup.
+1. Enjoy a better shopping experience!
+
+> Tip: Pin the extension for quick access.
 
 ## Use
 
 1. Navigate to an Amazon **search results** page on **amazon.com** (e.g., https://www.amazon.com/s?k=...).
 2. Click the extension icon.
-3. Enter a **Minimum price** and/or **Maximum price**.
+3. Enter a **minimum price** and/or **maximum price**.
    - If both are provided, **min must be less than max**.
    - You can provide just one (min-only or max-only).
 4. Click **Apply** to update the current tab’s URL with the correct parameters.
 5. Click **Reset** to clear inputs and remove the price filters from the URL.
 
-### Notes & Tips
+### Permissions
 
-- The extension operates only on **amazon.com** pages. (It will not modify tabs on other domains.)
-- It reads existing `low-price` / `high-price` values from the URL to prefill the fields when possible.
-- The extension uses **Manifest V3** and requires only the `tabs` permission to read/update the active tab’s URL.
+- The extension operates only on **amazon.com** search pages. (It does not run on other domains.)
+- It reads existing low/high price values from the URL to prefill the fields when possible.
+- It requires only minimal `tabs` permission to read/update the Amazon search URL.
 
 ## Privacy
 
-No data is collected or sent anywhere. All logic runs locally in the popup and only updates the active tab’s URL.
+- No data is collected or sent anywhere. 
+- All logic runs locally in the popup and only updates the active tab’s URL.
 
 ## Troubleshooting
 
