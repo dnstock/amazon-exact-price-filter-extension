@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Amazon.com Exact Price Filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use the classic interface (not the slider) to set exact minimum and maximum prices on Amazon.com results.",
   "permissions": [
     "tabs"
